@@ -6,6 +6,10 @@ SELinux policies for Foreman and subcomponents
 Compiling
 ---------
 
+Before compiling, make sure the following packages are installed:
+
+ * selinux-policy-devel
+
 To locally compile the policy do something like:
 
     PCY=foreman
